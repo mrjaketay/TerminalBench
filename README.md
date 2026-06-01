@@ -1,6 +1,6 @@
 TerminalBench
 
-A collection of realistic system failure scenarios designed for debugging practice and engineering evaluation.
+A collection of realistic system failure scenarios designed to simulate production debugging and evaluate engineering and AI reasoning workflows.
 
 Overview
 
