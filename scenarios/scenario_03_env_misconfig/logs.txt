@@ -1,0 +1,16 @@
+[INFO] Loading application...
+[INFO] Environment: production
+
+[INFO] Loading environment variables...
+[WARNING] JWT_SECRET not found, using default value
+
+[INFO] Connecting to external service API...
+[ERROR] Missing API_KEY for external service
+
+[INFO] Starting authentication module...
+[ERROR] Authentication failed - invalid token signature
+
+[INFO] Attempting request to third-party API...
+[ERROR] 401 Unauthorized
+
+[INFO] Service running but degraded functionality detected

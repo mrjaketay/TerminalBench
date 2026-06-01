@@ -1,0 +1,22 @@
+[INFO] Starting API service...
+[INFO] Database connection pool initialized (max=2)
+
+[INFO] GET /users request received
+[INFO] Querying database...
+[INFO] Connection acquired from pool
+[INFO] Query execution started...
+
+[WARNING] Query taking longer than expected (8s)
+
+[INFO] GET /orders request received
+[INFO] Waiting for available DB connection...
+[WARNING] Connection pool exhausted
+
+[ERROR] Request timeout after 15000ms
+
+[INFO] GET /users request received
+[WARNING] Queueing request due to no available DB connections
+
+[ERROR] Database timeout - unable to acquire connection
+
+[INFO] Service still running...

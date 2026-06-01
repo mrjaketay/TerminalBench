@@ -1,0 +1,16 @@
+[INFO] Starting API service...
+[INFO] Loading environment variables...
+[INFO] Connecting to database...
+[ERROR] Database connection failed: ECONNREFUSED 127.0.0.1:5432
+
+[INFO] Retrying connection...
+[ERROR] Database connection failed: timeout after 5000ms
+
+[WARNING] Falling back to default config...
+[INFO] API service started on port 3000
+
+[REQUEST] GET /users
+[ERROR] 500 Internal Server Error - database unavailable
+
+[REQUEST] GET /data
+[ERROR] 500 Internal Server Error - database unavailable
